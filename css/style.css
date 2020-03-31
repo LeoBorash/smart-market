@@ -1,0 +1,224 @@
+body {
+  font-family: "Comfortaa", cursive;
+  font-size: 16px;
+  margin: 0;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.main {
+  max-width: 500px;
+  margin: 0 auto;
+}
+img {
+  width: 100%;
+}
+.pr1 {
+  float: left;
+  width: 49%;
+  border: 1px solid #e0e4e8;
+  padding: 4px;
+  margin: 1px;
+}
+
+.titleu {
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+  margin-left: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.titleu__mini {
+  margin-left: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+  font-size: 14px;
+  margin-bottom: -10px;
+}
+
+.titles {
+  text-align: center;
+}
+.img_portret {
+  height: 180px;
+}
+.btn-buy,
+.btn-like {
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btn-buy {
+  float: left;
+  background-color: green;
+  color: white;
+  width: 45%;
+  text-align: center;
+  padding: 10px 0;
+  margin-left: 5px;
+}
+.btn-like {
+  float: right;
+  margin-right: 8px;
+  background-color: yellow;
+  width: 45%;
+  text-align: center;
+  margin-right: 8px;
+  padding: 10px 0;
+  cursor: pointer;
+}
+.opisanie-tovara {
+  margin-top: 60px;
+  display: block;
+  margin-left: 8px;
+  clear: both;
+}
+.fa-bars,
+.fa-shopping-cart {
+  font-size: 30px;
+  cursor: pointer;
+  margin: 12px 4%;
+  color: #253c64;
+}
+.search-top {
+  width: 65%;
+  margin-left: 0px;
+}
+.clears {
+  clear: both;
+}
+/*==============================================SIDEBAR===============================================================*/
+.logotip {
+  background-color: white;
+}
+.logotip > h4 {
+  color: #000000;
+}
+.sidebar-auth {
+  background-color: #b3d107;
+  padding-left: 12%;
+}
+.sidebar-auth a {
+  color: white;
+}
+.sidenav {
+  height: 100%;
+  width: 0px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  background: #253c64;
+}
+.sidenav > a {
+  padding: 3px 8px 1px 32px;
+}
+.sidebar-li {
+  background-color: white;
+}
+.sidebar-li a {
+  padding: 3px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 17px;
+  color: #000000;
+  display: block;
+  transition: 0.3s;
+  border-bottom: 1px solid #d7dce1;
+}
+.sidebar-li a > img {
+  width: 22px;
+}
+.sidenav a:hover {
+  color: #31937c;
+  text-decoration: none;
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 28px;
+  margin-left: 50px;
+  color: white;
+}
+.navba {
+  padding-top: 5px;
+  font-size: 23px;
+  cursor: pointer;
+  color: #ffffff;
+  margin-left: 10px;
+  display: inline-block;
+  width: 10%;
+}
+
+.sidebar-logo {
+  width: 100%;
+}
+/*========================================================================================================================*/
+.backgr {
+  background: #d7dce1;
+}
+.tovar {
+  border-top: none;
+  color: #2b3e5f;
+  background: #d7dce1;
+}
+.tovar__in {
+  background: white;
+  border-radius: 8px;
+}
+.tovar__in img {
+  padding: 10px;
+  border-radius: 15px;
+}
+.fod {
+  padding-bottom: 10px;
+}
+
+.line {
+  width: 85%;
+  margin-bottom: 0.4rem;
+}
+.old-price {
+  text-decoration: line-through;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.tovar a {
+  color: #2b3e5f;
+}
+.col-6 {
+  padding: 3px;
+}
+.oformit {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 20px;
+}
+.calculator {
+  display: none;
+}
+.cart-dot {
+  background: #b7d709;
+  border-radius: 15px;
+  color: white;
+  padding: 1px 4px 0 4px;
+  margin-left: -15px;
+}
+#deletepr {
+  cursor: pointer;
+}
+
+.block {
+  height: 300px;
+  width: 100%;
+  border: 1px solid black;
+}
+.tesst {
+  margin-top: -50%;
+  color: white;
+}
+.imgs_blocks input {
+  margin-bottom: 3px;
+  margin-top: 2px;
+}
